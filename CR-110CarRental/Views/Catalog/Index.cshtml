@@ -1,0 +1,55 @@
+@section Styles {
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="/css/catalog/index.css" rel="stylesheet">
+}
+
+<h2>Choose your car!</h2>
+
+<div id="catalog-container">
+
+</div>
+
+<div id="popup" class="modal" tabindex="-1" role="dialog">
+    <div class="modal-dialog modal-xl">
+        <div class="modal-content">
+
+            <div class="modal-header">
+                <h5 id="mdlTitle" class="modal-title">Your Select Vehicle:</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            
+            </div>
+                <div id="mdlContent" class="modal-body">
+            </div>
+
+            <div id="mdlInfo" class="modal-body">
+                <label>Category: </label> <label id="mdlCat"></label>
+
+                <label>Miles: </label> <label id="mdlMiles"></label>ß
+                <br>
+                <label>MPG: </label> <label id="mdlMPG"></label>
+                
+                <label>Transmission: </label> <label id="mdlTrans"></label>
+                <br>
+
+            </div>
+
+            <div class="modal-footer">
+                <div class="price-container">
+                    <label>Price:</label>
+                    <label id="mdlPrice"></label>
+                </div>
+
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Rent It!</button>
+            </div>
+        </div>
+    </div>
+</div>
+<br>
+
+@section Scripts {
+    <script src="/js/catalog/index.js"></script>
+}

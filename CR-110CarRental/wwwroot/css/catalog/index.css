@@ -1,0 +1,76 @@
+h2{
+    font-family: sans-serif;
+    color: rgb(39, 5, 140);
+   
+}
+img{
+    border: 3px  rgb(92, 82, 121) solid;
+    border-radius: 15px;
+    box-shadow: 1px 1px 1px rgb(250, 132, 119);
+    width: 420px;
+    height: 330px;
+    cursor: pointer;
+}
+/*rent Button*/
+.rentButton{
+    background-color: rgb(5, 114, 5);
+    border: 3px  rgb(206, 255, 192) solid;
+    color: rgb(255, 255, 254);
+    font-family: 'Trebuchet MS';
+    border-radius: 10px;
+    padding: 5px;
+    cursor: pointer;
+    margin-top: 3px;
+}
+.car{
+    border: 1px solid rgb(2, 3, 77);
+    border-radius: 10px;
+    padding: 5px;
+    width: 450px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+
+    display: inline-block;
+    background-color: aliceblue;
+}    
+
+.car .price{
+    float: left;
+    font-weight: bold;
+    font-size: 20px;
+    color:  rgb(39, 5, 140);
+}
+
+.car .name{
+    float: right;
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(152, 34, 61);
+}
+
+.modal-image{
+    width: 100%;
+    height: auto;
+}
+
+.price-container{
+    margin-right: auto !important;
+    font-size: 22px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: rgb(193, 186, 211);
+}
+
+#mdlPrice{
+    color:rgb(12, 94, 12);
+}
+#mdlMiles{
+    color:rgb(2, 2, 2);
+}
+#mdlMPG{
+    color:rgb(0, 0, 0);
+}
+#mdlIsManual{
+    color:rgb(0, 0, 0);
+}  
